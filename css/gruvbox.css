@@ -1,0 +1,153 @@
+/*
+css theme based on Gruvbox colour palette
+It also aligns posts with images, and squashes image thumbnails on purpose. That section can be cut out.
+*/
+body {
+    background: #1d2021;
+    color: #fbf1c7;
+    font-family: Helvetica;
+    font-size: 1.24em;
+}
+div.reply {
+    margin-bottom: 10px;
+    background-color: #1d2021;
+    border-top: 1px solid #d5c4a1;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+/* ##############
+Image alignment stuff, quote out if you don't like it
+################# */
+.inline .reply .postMessage,
+.noFile .inline .reply .postMessage,
+.dialog .post .postMessage {
+    margin-left: 15px !important;
+}
+.noFile .postMessage {
+    margin-left: 170px !important;
+}
+/* make all thumbnails same size, ugly hack for alignment */
+div.post div.file .fileThumb img {
+    width: 130px !important;
+    height: 130px !important;
+}
+.opContainer .post .file .fileThumb img {
+    width: 100% !important;
+    height: 100% !important;
+}
+/* ################
+End of alignment stuff
+################### */
+a {
+    color: #458588;
+}
+a:visited {
+    color: #83a598;
+}
+a:hover {
+ color:#cc241d!important;
+}
+.quotelink {
+    color: #cc241d !important;
+}
+.deadlink {
+    text-decoration: line-through !important;
+    color: #fb4934 !important;
+}
+.qmark-ct {
+    color: #ebdbb2;
+    text-decoration: none;
+}
+.quotelink .qmark-ct {
+    color: #fbf1c7;
+    text-decoration: inherit;
+    text-decoration-color: #7c6f64;
+    background-color: #7c6f64;
+}
+div.post div.postInfo span.subject {
+    color: #d3869b;
+}
+div.post div.postInfo span.postNum a {
+    color: #a89984;
+}
+.inline .post {
+    background-color: #282828 !important;
+}
+.summary {
+    color: #d3869b;
+}
+.fileText {
+    font-size: 14px !important;
+}
+.fileText a {
+    text-decoration: none;
+    color: #ebdbb2;
+}
+div.post div.postInfo span.nameBlock span.name {
+    color: #d79921;
+}
+div.post div.postInfo span.nameBlock span.postertrip {
+    color: #fe8019;
+}
+a.replylink:not(:hover), div#absbot a:not(:hover) {
+    color: #a89984 !important;
+}
+#watched-threads .watcher-link {
+    color: #d3869b;
+}
+#thread-watcher a {
+    text-decoration: none;
+    color: white;
+}
+.fixed:root #header-bar {
+    box-shadow: none;
+}
+#custom-board-list {
+    font-size: 14px;
+}
+.fixed #header-bar {
+    font-size: 14px;
+}
+.backlink {
+    font-size: 14px;
+    color: #fe8019;
+}
+blockquote > span.quote {
+    color: #b8bb26;
+}
+.fa.fa-minus-square-o {
+    color: white;
+}
+div.pagelist {
+    font-size: 15px !important;
+    background: none;
+    border-right: none;
+    border-bottom: none;
+}
+button {
+    background: #504945;
+    color: #ebdbb2;
+    border: none;
+}
+ 
+ 
+/* ##############
+Hiding Elements
+################# */
+ 
+div#absbot,
+div.boardBanner,
+.bottomCtrl,
+.qr-link-container,
+.middlead.center,
+.aboveMidAd,
+#id_css,
+#mpostform,
+#togglePostFormLink,
+#blotter,
+form[name="post"],
+body > hr:nth-child(17),
+body > hr:nth-child(19) {
+    display: none;
+}
