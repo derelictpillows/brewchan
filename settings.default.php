@@ -23,7 +23,7 @@ define('BREWCHAN_MODPASS', '');         // moderators only have access to delete
 define('BREWCHAN_BOARD', 'b');          // identifier for this board using only letters and numbers
 define('BREWCHAN_BOARDDESC', 'brewchan'); // displayed at the top of every page
 define('BREWCHAN_ALWAYSNOKO', true);   // redirect to thread after posting
-define('BREW_CAPTCHA', '');         // reduce spam by requiring users to pass a CAPTCHA when posting: simple / recaptcha  (click Rebuild All in the management panel after enabling)  <'' to disable>
+define('BREWCHAN_CAPTCHA', '');         // reduce spam by requiring users to pass a CAPTCHA when posting: simple / recaptcha  (click Rebuild All in the management panel after enabling)  <'' to disable>
 define('BREWCHAN_MANAGECAPTCHA', '');   // improve security by requiring users to pass a CAPTCHA when logging in to the management panel: simple / recaptcha  <'' to disable>
 define('BREWCHAN_REPORT', true);       // allow users to report posts
 define('BREWCHAN_REQMOD', '');          // require moderation before displaying posts: files / all  ['' to disable]
