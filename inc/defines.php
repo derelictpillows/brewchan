@@ -34,8 +34,8 @@ if (!defined('BREWCHAN_UPLOADVIAURL')) {
 if (!defined('BREWCHAN_NOFILEOK')) {
 	define('BREWCHAN_NOFILEOK', false);
 }
-if (!defined('BREW_CAPTCHA')) {
-	define('BREW_CAPTCHA', '');
+if (!defined('BREWCHAN_CAPTCHA')) {
+	define('BREWCHAN_CAPTCHA', '');
 }
 if (!defined('BREWCHAN_MANAGECAPTCHA')) {
 	define('BREWCHAN_MANAGECAPTCHA', '');
