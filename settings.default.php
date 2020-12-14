@@ -55,18 +55,18 @@ define('BREWCHAN_MAXREPLIES', 0);       // Maximum replies before a thread stops
 $brewchan_uploads = array('image/jpeg'                  => array('jpg'),
                         'image/pjpeg'                   => array('jpg'),
                         'image/png'                     => array('png'),
-                        'image/gif'                     => array('gif');
-                        'application/x-shockwave-flash' => array('swf', 'swf_thumbnail.png');
-                        'audio/aac'                     => array('aac');
-                        'audio/flac'                    => array('flac');
-                        'audio/ogg'                     => array('ogg');
-                        'audio/opus'                    => array('opus');
-                        'audio/mp3'                     => array('mp3');
-                        'audio/mpeg'                    => array('mp3');
-                        'audio/mp4'                     => array('mp4');
-                        'audio/wav'                     => array('wav');
-                        'audio/webm'                    => array('webm');
-                        'video/mp4'                     => array('mp4'); 
+                        'image/gif'                     => array('gif'),
+                        'application/x-shockwave-flash' => array('swf', 'swf_thumbnail.png'),
+                        'audio/aac'                     => array('aac'),
+                        'audio/flac'                    => array('flac'),
+                        'audio/ogg'                     => array('ogg'),
+                        'audio/opus'                    => array('opus'),
+                        'audio/mp3'                     => array('mp3'),
+                        'audio/mpeg'                    => array('mp3'),
+                        'audio/mp4'                     => array('mp4'),
+                        'audio/wav'                     => array('wav'),
+                        'audio/webm'                    => array('webm'),
+                        'video/mp4'                     => array('mp4'),
                         'video/webm'                    => array('webm'));
 
 // oEmbed APIs borrowed from tinyib
